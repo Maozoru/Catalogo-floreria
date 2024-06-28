@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florería</title>
+    <link rel="stylesheet" href="CSS/Estilos.css">
+</head>
+<body>
+    <header>
+        <a href="Paginas/Carrito.html" class="cart-link">
+            <img src="Imagenes/carrito.png" alt="Carrito" class="cart-icon">
+        </a>
+    </header>
+    <main>
+        <section id="products">
+            <h2>Nuestros Arreglos Florales</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="Imagenes/rosas.jpg" alt="Rosas">
+                    <h3>Ramo de Rosas</h3>
+                    <p>Rosas rojas frescas y elegantes.</p>
+                    <p>Precio: $25.00</p>
+                    <button class="add-to-cart" onclick="addToCart('Rosas', 'Rosas rojas frescas y elegantes.', 25.00, '../Imagenes/rosas.jpg')">Agregar al Carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="Imagenes/orquideas.jpg" alt="Orquídeas">
+                    <h3>Orquídeas</h3>
+                    <p>Hermosas orquídeas exóticas.</p>
+                    <p>Precio: $30.00</p>
+                    <button class="add-to-cart" onclick="addToCart('Orquídeas', 'Hermosas orquídeas exóticas.', 30.00, '../Imagenes/orquideas.jpg')">Agregar al Carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="Imagenes/tulipanes.jpg" alt="Tulipanes">
+                    <h3>Tulipanes</h3>
+                    <p>Tulipanes coloridos y vibrantes.</p>
+                    <p>Precio: $20.00</p>
+                    <button class="add-to-cart" onclick="addToCart('Tulipanes', 'Tulipanes coloridos y vibrantes.', 20.00, '../Imagenes/tulipanes.jpg')">Agregar al Carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="Imagenes/lirios.jpeg" alt="Lirios">
+                    <h3>Lirios</h3>
+                    <p>Lirios blancos delicados.</p>
+                    <p>Precio: $18.00</p>
+                    <button class="add-to-cart" onclick="addToCart('Lirios', 'Lirios blancos delicados.', 18.00, '../Imagenes/lirios.jpeg')">Agregar al Carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="Imagenes/Girasoles.jpg" alt="Girasoles">
+                    <h3>Girasoles</h3>
+                    <p>Girasoles brillantes y alegres.</p>
+                    <p>Precio: $22.00</p>
+                    <button class="add-to-cart" onclick="addToCart('Girasoles', 'Girasoles brillantes y alegres.', 22.00, '../Imagenes/Girasoles.jpg')">Agregar al Carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="Imagenes/Margaritas.jpeg" alt="Margaritas">
+                    <h3>Margaritas</h3>
+                    <p>Margaritas frescas y sencillas.</p>
+                    <p>Precio: $15.00</p>
+                    <button class="add-to-cart" onclick="addToCart('Margaritas', 'Margaritas frescas y sencillas.', 15.00, '../Imagenes/Margaritas.jpeg')">Agregar al Carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="Imagenes/claveles.jpeg" alt="Claveles">
+                    <h3>Claveles</h3>
+                    <p>Claveles coloridos y duraderos.</p>
+                    <p>Precio: $18.00</p>
+                    <button class="add-to-cart" onclick="addToCart('Claveles', 'Claveles coloridos y duraderos.', 18.00, '../Imagenes/claveles.jpeg')">Agregar al Carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="Imagenes/Peonias.jpeg" alt="Peonías">
+                    <h3>Peonías</h3>
+                    <p>Peonías románticas y fragantes.</p>
+                    <p>Precio: $35.00</p>
+                    <button class="add-to-cart" onclick="addToCart('Peonías', 'Peonías románticas y fragantes.', 35.00, '../Imagenes/Peonias.jpeg')">Agregar al Carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="Imagenes/Jazmines.jpeg" alt="Jazmines">
+                    <h3>Jazmines</h3>
+                    <p>Jazmines aromáticos y delicados.</p>
+                    <p>Precio: $28.00</p>
+                    <button class="add-to-cart" onclick="addToCart('Jazmines', 'Jazmines aromáticos y delicados.', 28.00, '../Imagenes/Jazmines.jpeg')">Agregar al Carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="Imagenes/Gardenias.jpeg" alt="Gardenias">
+                    <h3>Gardenias</h3>
+                    <p>Gardenias blancas y elegantes.</p>
+                    <p>Precio: $32.00</p>
+                    <button class="add-to-cart" onclick="addToCart('Gardenias', 'Gardenias blancas y elegantes.', 32.00, '../Imagenes/Gardenias.jpeg')">Agregar al Carrito</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
